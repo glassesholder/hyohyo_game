@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "hyohyo_game"
-version = "0.2.0"
+version = "0.2.1"
 description = "Simple game package with console and pygame games"
 readme = "README.md"
 license = {file = "LICENSE"}
