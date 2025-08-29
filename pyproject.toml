@@ -24,10 +24,11 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 keywords = ["game", "pygame", "console", "entertainment", "korean"]
-[project.urls]
-Homepage = "https://github.com/glassesholder/hyohyo_game"
-Source = "https://github.com/glassesholder/hyohyo_game"
 dependencies = [
     "pygame>=2.6.1"
 ]
 requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/glassesholder/hyohyo_game"
+Source = "https://github.com/glassesholder/hyohyo_game"
