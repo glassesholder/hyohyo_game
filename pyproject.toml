@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling==1.26.3"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hyohyo_game"
+version = "0.2.0"
+description = "Simple game package with console and pygame games"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Hyojun Lee", email = "statisticlee@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Games/Entertainment",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+keywords = ["game", "pygame", "console", "entertainment", "korean"]
+dependencies = [
+    "pygame>=2.6.1"
+]
+requires-python = ">=3.9"
